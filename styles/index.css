@@ -33,6 +33,11 @@ h1:hover{
     font-family: "proxima-nova", sans-serif;
 }
 
+#navigation p a{
+    color: black;
+    text-decoration: none;
+}
+
 #navigation :hover{
     color: burlywood;
 }
