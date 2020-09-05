@@ -1,0 +1,80 @@
+#intro{
+    padding: 0.5vh 10vw 0 10vw;
+    font-family: "proxima-nova", sans-serif;
+    line-height: 72px;
+    vertical-align: baseline;
+    text-align: center;
+}
+#intro h1{
+    font-weight: 700;
+    font-size: 72px;
+    font-style: normal;
+    letter-spacing: 10px;
+}
+
+h1:hover{
+    color: burlywood;
+}
+
+#intro #quote{
+    line-height: 30px;
+}
+
+#navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#navigation p{
+    margin: 0px 10px 0px 10px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    font-family: "proxima-nova", sans-serif;
+}
+
+#navigation :hover{
+    color: burlywood;
+}
+
+#bio{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+#bio img{
+    width: 320px;
+    height: 450px;
+    margin-left: 15px;
+    margin-right: 40px;
+}
+
+#bio section{
+    width: 500px;
+    line-height: 30px;
+    font-family: "proxima-nova", sans-serif;
+}
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    background-color: chartreuse;
+}
+
+footer p{
+    text-align: center;
+    background-color: chartreuse;
+}
+#links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 60px 0px 20px 0px;
+}
+
+#links i{
+    margin: 0px 20px 0px 20px;
+    color: black;
+}
