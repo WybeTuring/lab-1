@@ -10,6 +10,5 @@ This repository contains a single file, a script for gathering the basic configu
 
 Please refer to your lab instructions for definitive directions. In general, clone this repository to a new repository in your user space.
 
-# Ownership
-
-This file has been changed by Karl Lemfon, as is required by the exercise for Lab 1 for the Web development class. 
+## Link to Github Pages site
+https://wybeturing.github.io/lab-1

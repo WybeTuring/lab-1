@@ -21,6 +21,10 @@ h1:hover{
     text-decoration: underline;
 }
 
+a :active{
+    color: purple;
+}
+
 #intro #quote{
     line-height: 30px;
 }
