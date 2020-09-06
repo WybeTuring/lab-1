@@ -23,6 +23,10 @@ h1:hover{
 #intro #quote{
     line-height: 30px;
 }
+#intro a {
+    color: black;
+    text-decoration: none;
+}
 
 #navigation{
     display: flex;
@@ -47,7 +51,6 @@ h1:hover{
 }
 
 #footer{
-    position: absolute;
     bottom: 0px;
     width: 100%;
     margin-top: 30px;
@@ -55,4 +58,34 @@ h1:hover{
 
 #footer p{
     text-align: center;
+}
+
+#content #content-courses p{
+    font-size: larger;
+}
+
+#content #content-courses li{
+    list-style: none;
+    line-height: 50px;
+    font-size: 20px;
+    padding: 0px 20px 0px 20px;
+}
+
+#content #content-courses li i{
+    margin: 0px 20px 0px 20px;
+}
+
+i{
+    margin: 0px 20px 0px 20px; 
+}
+
+#content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#content-courses {
+    margin-top: 30px;
+    width: 60vw;
 }
