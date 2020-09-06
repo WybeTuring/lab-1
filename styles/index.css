@@ -18,6 +18,7 @@
 
 h1:hover{
     color: burlywood;
+    text-decoration: underline;
 }
 
 #intro #quote{
@@ -44,6 +45,7 @@ h1:hover{
 
 #navigation :hover{
     color: burlywood;
+    text-decoration: underline;
 }
 
 #bio{
@@ -58,6 +60,7 @@ h1:hover{
     height: 450px;
     margin-left: 15px;
     margin-right: 40px;
+    box-shadow: black -10px 5px 10px;
 }
 
 #bio section{
@@ -92,4 +95,5 @@ h1:hover{
 
 #links i:hover{
     color:burlywood;
+    text-decoration: underline;
 }

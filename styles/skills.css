@@ -23,6 +23,7 @@ body{
 
 h1:hover{
     color: burlywood;
+    text-decoration: underline;
 }
 
 #intro #quote{
@@ -44,6 +45,7 @@ h1:hover{
 
 #navigation :hover{
     color: burlywood;
+    text-decoration: underline;
 }
 
 #navigation p a{
@@ -52,12 +54,30 @@ h1:hover{
 }
 
 #footer{
-    position: absolute;
-    bottom: 0px;
     width: 100%;
     margin-top: 30px;
 }
 
 #footer p{
     text-align: center;
+}
+
+#content #content-skills ul{
+    list-style: none;
+    line-height: 50px;
+    font-size: 20px;
+    padding: 0px 20px 0px 20px;
+    margin: 30px 0px 30px 0px;
+
+}
+
+#content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#content-skills {
+    margin-top: 30px;
+    width: 60vw;
 }
