@@ -51,12 +51,54 @@ h1:hover{
 }
 
 #footer{
-    position: absolute;
-    bottom: 0px;
     width: 100%;
     margin-top: 30px;
 }
 
 #footer p{
     text-align: center;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#content-projects{
+    width: 60vw;
+}
+
+#img-region{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+#image img{
+    width: 60vw;
+    margin-top: 30px;
+    width: 90%;
+    height: 60vh;
+}
+
+.project-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-item .project-number{
+    font-size: 50px;
+    font-weight: 700;
+    border: 3px;
+    border-style: solid;
+    padding: 0px 50px 0px 50px;
+}
+
+.project-item .project-description{
+    margin-left: 20px;
+    line-height: 30px;
+    font-family: "proxima-nova", sans-serif;
 }
